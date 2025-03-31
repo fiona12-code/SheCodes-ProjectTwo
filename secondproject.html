@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Childhood Nutrition</title>
+    <style>
+      body {
+        background: radial-gradient(
+          321px at 8.3% 75.7%,
+          rgb(209, 247, 241) 0%,
+          rgb(249, 213, 213) 81%
+        );
+      }
+      h1 {
+        text-align: center;
+        color: #155263;
+        font-weight: bolder;
+      }
+      h2 {
+        text-align: center;
+        color: #155263;
+        font-weight: bolder;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+        opacity: 0.8;
+      }
+      footer {
+        text-align: center;
+        padding: 20px;
+      }
+      .content {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        max-width: 600px;
+        padding: 0px 20px 20px 20px;
+        border-radius: 5px;
+        margin: 0 auto;
+        background-color: #ececec;
+      }
+      .theme-button {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: white;
+        color: #303841;
+        font-size: 20px;
+        font-weight: 600px;
+        padding: 10px 20px;
+        border-radius: 8px;
+        display: block;
+        margin: 0 auto;
+        border-color: #155263;
+        box-shadow: 10px 5px 5px #393e46;
+        transition: all 200ms ease-in-out;
+      }
+      .theme-button:hover {
+        color: white;
+        background: #303841;
+        cursor: pointer;
+      }
+      .feedback-button {
+        display: block;
+        margin: 0 auto;
+        background-color: #d6f2ed;
+        color: #45171d;
+        padding: 10px 20px;
+        border-radius: 8px;
+        font-size: 20px;
+        border: none;
+        box-shadow: 10px 5px 5px #393e46;
+        transition: all 200ms ease-in-out;
+      }
+      .feedback-button:hover {
+        color: #d6f2ed;
+        background-color: #45171d;
+        cursor: pointer;
+      }
+      .school {
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+      }
+      .school:hover {
+        filter: contrast(80%);
+        transform: scale(1.2);
+      }
+      .picture-grid {
+        margin: 15px 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+      }
+      .picture-grid img {
+        max-width: 100%;
+        border-radius: 8px;
+        object-fit: cover;
+        transition: all 200ms ease-in-out;
+      }
+      .picture-grid img:hover {
+        filter: contrast(70%);
+        transform: scale(1.2);
+      }
+      .dark {
+        background: linear-gradient(
+          109.6deg,
+          rgb(36, 45, 57) 11.2%,
+          rgb(16, 37, 60) 51.2%,
+          rgb(0, 0, 0) 98.6%
+        );
+        color: #45171d;
+      }
+      .dark .content {
+        background: linear-gradient(
+          177.9deg,
+          rgb(58, 62, 88) 3.6%,
+          rgb(119, 127, 148) 105.8%
+        );
+      }
+      .dark h1 {
+        color: whitesmoke;
+      }
+      .dark h2 {
+        color: whitesmoke;
+      }
+      .dark a {
+        color: aquamarine;
+      }
+      .dark .theme-button {
+        background: #303841;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <button class="theme-button">Change Theme</button>
+    <div class="content">
+      <h1>Childhood Nutrition🥙</h1>
+      <h2>Proper food for children</h2>
+      <a
+        href="https://www.wvi.org/opinion/view/school-meals-are-life-changing-not-easy-abc"
+        target="_blank"
+      >
+        <img
+          class="school"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/158/876/original/school_feeding.jpg?1740730897"
+          alt=""
+          width="600"
+          height="400"
+        />
+      </a>
+      <div class="picture-grid">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/158/869/original/breastfeeding1-1000x561.jpg?1740727032"
+          alt=""
+          width="500"
+          height="250"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/158/873/original/introducing-solids.jpg?1740727116"
+          alt=""
+          width="600"
+          height="250"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/158/871/original/images_%283%29.jpeg?1740727081"
+          alt=""
+          width="600"
+          height="250"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/158/870/original/feeding-program-2.jpg?1740727058"
+          alt=""
+          width="600"
+          height="250"
+        />
+      </div>
+      <p>
+        Children need the right foods at the right time to grow and develop to
+        their full potential. The most critical time for good nutrition is
+        during the 1,000-day period from pregnancy until the second birthday. In
+        the first two years of life, breastfeeding saves lives, shields children
+        from disease, boosts brain development and guarantees children a safe
+        and nutritious food source. UNICEF and the World Health Organization
+        (WHO) recommend that infants begin breastfeeding within one hour of
+        birth, be exclusively breastfed for the first six months, and continue
+        breastfeeding until 2 years of age or beyond.
+      </p>
+      <a
+        href="https://www.unicef.org/nutrition/early-childhood-nutrition"
+        target="_blank"
+        >📖Read More...</a
+      >
+      <div><button class="feedback-button">Feedback</button></div>
+      <footer>This page was created by Fiona Atieno 🤗</footer>
+    </div>
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+        body.classList.toggle("dark");
+      }
+      let themeButton = document.querySelector(".theme-button");
+      themeButton.addEventListener("click", changeTheme);
+
+      function findFeedback() {
+        let name = prompt("What is your name?");
+        let answer = prompt("Did you find this page useful?");
+
+        if (answer === "yes")
+          alert(
+            "Hello" +
+              " " +
+              name +
+              "!" +
+              " " +
+              "We are glad you got the information you needed!" +
+              " " +
+              "💜"
+          );
+        else {
+          alert(
+            "Hello" +
+              " " +
+              name +
+              "!" +
+              " " +
+              "Sorry, you did not find the information you were looking for!" +
+              " " +
+              "😔"
+          );
+        }
+      }
+      let feedbackButton = document.querySelector(".feedback-button");
+      feedbackButton.addEventListener("click", findFeedback);
+    </script>
+  </body>
+</html>
